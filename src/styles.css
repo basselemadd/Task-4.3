@@ -1,2 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
-:root{font-family:'DM Sans',Arial,sans-serif;background:#f1f5f7;color:#172b3c}*{box-sizing:border-box}body{margin:0}button,select,input,textarea{font:inherit}button{cursor:pointer}.topbar{height:80px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;background:#112b3a;color:#f8fcfd;gap:20px}.mark{display:flex;align-items:center;gap:12px}.mark-sq{width:40px;height:40px;background:#56d6c8;color:#0a3445;display:grid;place-items:center;border-radius:8px;font:800 25px 'Space Grotesk'}.mark strong{font:700 23px 'Space Grotesk';letter-spacing:-.04em;display:block}.mark strong span{color:#56d6c8}.mark small{display:block;color:#8fb4bd;font-size:10px}.topbar nav{display:flex;gap:15px}.topbar nav button{background:none;color:#a3bbc4;border:0;padding:13px 3px;border-bottom:2px solid transparent;font-size:12px}.topbar nav button.selected{color:#f8feff;border-bottom-color:#55cfbd}.member{display:flex;gap:13px;align-items:center;color:#91b0b8;font-size:11px}.profile{border:1px solid #4b6872;width:35px;height:35px;display:grid;place-items:center;border-radius:50%;font-size:10px;color:white}main{padding:42px 5% 60px;max-width:1670px;margin:0 auto}.intro{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-bottom:32px}.eyebrow{color:#248a8b;font-size:10px;letter-spacing:.15em;font-weight:800}.intro h1{font:700 40px 'Space Grotesk';letter-spacing:-.035em;margin:9px 0}.intro p{font-size:13px;color:#81919c}.intro-summary{display:grid;grid-template-columns:1fr auto;gap:5px 17px;align-items:center;padding:17px 25px;border:1px solid #dbe7eb;background:#fff;border-radius:10px}.intro-summary span{font-size:10px;letter-spacing:.07em;color:#90a5ac}.intro-summary strong{font:700 23px 'Space Grotesk';color:#135f69}.pagegrid{display:grid;grid-template-columns:minmax(0,1.78fr) minmax(315px,.78fr);gap:21px;align-items:start}.calendar-pane,.booking-pane{min-width:0}.calendar-pane{background:#fff;border:1px solid #dce7ec;border-radius:13px;padding:22px}.calendar-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:25px;gap:20px}.calendar-head h2{font-size:21px;margin:6px 0 0}.weeknav{display:flex;align-items:center;gap:11px}.weeknav button{border:1px solid #dce4e9;background:white;border-radius:8px;height:34px;width:34px;color:#46737e}.weeknav strong{font-size:11px;white-space:nowrap;color:#566f79}.calendar-controls{display:flex;align-items:center;gap:13px;flex-wrap:wrap;background:#f6f9fa;border:1px solid #e4eef0;border-radius:9px;padding:10px 11px;margin-bottom:16px}.calendar-controls label{display:flex;align-items:center;gap:5px;font-size:10px;color:#8798a0}.calendar-controls select{padding:7px;border:1px solid #dce8eb;border-radius:5px;color:#3c6c76;background:white;font-size:10px}.legend{display:flex;align-items:center;gap:5px;font-size:9px;color:#7d9298;white-space:nowrap}.legend i{width:11px;height:11px;border-radius:3px;display:inline-block}.legend .booked{background:#92b6c0}.legend .free{background:#c9eedd}.calendar-controls p{margin:0 0 0 auto;font-size:9px;color:#9baeb2}.calendar-scroll{overflow-x:auto;border:1px solid #e1e9eb;border-radius:8px}.room-cal{min-width:790px;display:grid;grid-template-columns:125px repeat(7,minmax(90px,1fr));}.corner{background:#f2f6f7;font-size:10px;font-weight:700;display:grid;place-items:center;color:#8da0a6;border-right:1px solid #e0ebee}.dayhead{padding:11px 7px;background:#f2f6f7;border-left:1px solid #e2ebee;text-align:center;font-size:10px}.dayhead strong,.dayhead span{display:block}.dayhead span{color:#9db1b9;font-size:10px;margin-top:6px}.roomname{padding:12px;border-top:1px solid #e5edef;background:#fff}.roomname strong,.roomname small{display:block}.roomname strong{font-size:12px}.roomname small{color:#a7b3b8;font-size:9px;margin-top:5px}.slot{min-height:73px;border-radius:0;border:0;border-top:1px solid #e5edef;border-left:1px solid #e9eff1;padding:8px 4px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;font-size:10px;color:#396d70}.slot.available{background:#e5f7ef}.slot.taken{background:#d9e7ed;color:#5c7e8d}.slot span{font-weight:700}.slot small{font-size:9px}.slot:hover{outline:2px solid #1c9a96;outline-offset:-2px}.calendar-note{font-size:10px;color:#9eacb2;line-height:1.6;padding:13px 4px;margin:0}.reservations{margin-top:25px;border-top:1px solid #e4e8ed;padding-top:19px}.reservations-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:15px}.reservations-head h2{font-size:17px;margin:0}.reservations-head span{font-size:10px;color:#97a5ad}.reservations-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.reservation{display:flex;align-items:center;gap:10px;background:#fafcfc;border:1px solid #e6edef;border-radius:8px;padding:10px}.room-chip{padding:11px 7px;border-radius:7px;background:#ddecef;font-weight:700;color:#4f7780;font-size:10px;white-space:nowrap}.reservation-body{flex:1;min-width:0}.reservation-body strong{font-size:11px;display:block}.reservation-body small{font-size:9px;color:#9aabb1;margin-top:4px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.reservation button{border:0;background:transparent;color:#207f80;text-decoration:underline;font-size:10px}.booking-pane{border-radius:13px;background:#fff;padding:23px;border:1px solid #dce7ec;box-shadow:0 7px 25px #132f3b0a}.panel-tag{display:flex;justify-content:space-between;color:#399d9b;font-size:10px;font-weight:800;letter-spacing:.12em;margin-bottom:20px}.booking-pane h2{font:700 25px 'Space Grotesk';letter-spacing:-.02em;margin:0}.booking-description{font-size:11px;color:#96a6ac;line-height:1.6;margin:12px 0 25px}.booking-pane label{display:flex;flex-direction:column;gap:8px;margin-bottom:19px;font-size:11px;font-weight:600;color:#527380}.booking-pane input,.booking-pane textarea{padding:12px 11px;border:1px solid #d5e2e6;background:#fbfdfe;border-radius:7px;font-size:11px;color:#35606c;min-width:0;width:100%}.date-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.helper{font-size:10px;line-height:1.55;color:#a1b0b5;margin:-4px 0 22px}.availability-check,.reserve-button{display:block;width:100%;padding:13px;border-radius:7px;font-weight:700;font-size:11px}.availability-check{border:1px solid #c8d9de;background:#fff;color:#246f7e;margin-bottom:9px}.reserve-button{background:#0f7b86;color:#fff;border:1px solid #0f7b86}.cancel-edit{border:0;background:transparent;font-size:11px;margin:10px 0}.right-foot{font-size:10px;color:#97a8af;background:#f4f8f8;border-radius:8px;padding:14px;line-height:1.6;margin-top:20px}.right-foot span{color:#219e95;font-size:19px;margin-right:5px}.success,.error{font-size:11px;padding:11px;margin:12px 0;border-radius:7px}.success{background:#e6f8ea;color:#317b5d}.error{background:#fff1f0;color:#ab4747}footer{padding:25px;text-align:center;color:#98adb3;font-size:10px}@media(max-width:1200px){.pagegrid{grid-template-columns:1fr}.booking-pane{max-width:none}.calendar-controls p{display:none}}@media(max-width:700px){.topbar{padding:12px 14px;height:auto;flex-wrap:wrap;gap:10px}.topbar nav{order:3;width:100%;justify-content:space-between}.member span{display:none}.intro{display:block}.intro h1{font-size:29px}.intro-summary{margin-top:20px;max-width:280px}.calendar-pane,.booking-pane{padding:14px}.calendar-head{display:block}.weeknav{margin-top:14px}.reservations-list{grid-template-columns:1fr}main{padding:20px 12px}.calendar-controls{gap:7px}}
+:root{font-family:'DM Sans',Arial,sans-serif;background:#f1f5f7;color:#172b3c;font-size:15px}
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{margin:0;overflow:hidden}
+button,select,input,textarea{font:inherit}
+button{cursor:pointer}
+button:disabled{cursor:not-allowed}
+:focus-visible{outline:3px solid #1c9a96;outline-offset:2px}
+
+/* app shell: each page fits one screen, nothing scrolls */
+.room-app{height:100vh;height:100dvh;display:flex;flex-direction:column}
+.topbar{flex:none;height:56px;display:flex;align-items:center;gap:16px;padding:0 20px;background:#112b3a;color:#f8fcfd}
+.mark{display:flex;align-items:center;gap:10px}
+.mark-sq{width:32px;height:32px;background:#56d6c8;color:#0a3445;display:grid;place-items:center;border-radius:7px;font:800 20px 'Space Grotesk'}
+.mark strong{font:700 19px 'Space Grotesk';letter-spacing:-.04em;display:block;line-height:1.05}
+.mark strong span{color:#56d6c8}
+.mark small{display:block;color:#b4d0d8;font-size:11px}
+.tabs{display:flex;gap:6px;margin-left:18px}
+.tabs button{display:flex;align-items:center;gap:8px;background:none;color:#c3d6dd;border:0;border-bottom:3px solid transparent;padding:16px 12px 13px;font-size:14px;font-weight:600}
+.tabs button.selected{color:#fff;border-bottom-color:#55cfbd}
+.tabs .num{width:20px;height:20px;border-radius:50%;border:1px solid #6f8f9a;font-size:11px;display:grid;place-items:center}
+.tabs .selected .num{background:#55cfbd;border-color:#55cfbd;color:#0a3445}
+.tabs .count{background:#1c8c9a;color:#fff;border-radius:99px;font-size:11px;padding:1px 7px}
+.counts{margin-left:auto;font-size:13px;color:#c3d6dd}
+.reset{background:none;color:#fff;border:1px solid #6f8f9a;border-radius:7px;padding:6px 12px;font-size:13px}
+.profile{border:1px solid #6f8f9a;width:32px;height:32px;display:grid;place-items:center;border-radius:50%;font-size:10px;color:#fff}
+main{flex:1;min-height:0;padding:14px 20px}
+.page{height:100%;min-height:0}
+.card{background:#fff;border:1px solid #dce7ec;border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;min-height:0;min-width:0}
+.toast{position:fixed;top:64px;left:50%;transform:translateX(-50%);z-index:20;display:flex;align-items:center;gap:12px;max-width:90vw;background:#1f5f45;color:#fff;padding:10px 14px;border-radius:9px;font-size:14px;box-shadow:0 6px 20px #0003}
+.toast button{background:none;border:0;color:#fff;font-size:18px;line-height:1}
+
+/* page 1: calendar */
+.calendar-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:8px}
+.calendar-head h2{font:700 19px 'Space Grotesk';margin:0 auto 0 0}
+.loc{display:flex;align-items:center;gap:6px;font-size:13px;color:#42606c;font-weight:600}
+.loc select{padding:6px;border:1px solid #bccdd3;border-radius:6px;color:#244f5a;background:#fff;font-size:13px}
+.weeknav{display:flex;align-items:center;gap:8px}
+.weeknav button{border:1px solid #c5d3d9;background:#fff;border-radius:7px;height:32px;min-width:32px;color:#2f6470;font-weight:600}
+.weeknav button.today{padding:0 10px;font-size:13px}
+.weeknav strong{font-size:13px;white-space:nowrap;color:#2d4654}
+.hint-row{display:flex;align-items:center;gap:12px;margin-bottom:8px;flex-wrap:wrap}
+.pick-hint{flex:1;min-width:240px;margin:0;padding:6px 10px;background:#eaf6f6;border-left:4px solid #1c9a96;border-radius:4px;font-size:13px;color:#164b52}
+.legend-row{display:flex;gap:10px;flex-wrap:wrap}
+.legend{display:flex;align-items:center;gap:5px;font-size:12px;color:#42606c;white-space:nowrap}
+.legend .sw{width:13px;height:13px;border-radius:3px;display:inline-block;border:1px solid rgba(0,0,0,.15)}
+.calendar-scroll{flex:1;min-height:0;display:flex;overflow:auto;border:1px solid #e1e9eb;border-radius:8px}
+.room-cal{flex:1;min-width:700px;display:grid;grid-template-columns:100px repeat(7,minmax(76px,1fr));grid-template-rows:var(--rows)}
+.corner{background:#f2f6f7;font-size:10px;font-weight:700;display:grid;place-items:center;color:#566b76;border-right:1px solid #e0ebee}
+.dayhead{padding:5px;background:#f2f6f7;border-left:1px solid #e2ebee;text-align:center;font-size:12px;display:flex;flex-direction:column;justify-content:center}
+.dayhead span{color:#566b76;font-size:11px}
+.roomname{padding:0 10px;border-top:1px solid #e5edef;background:#fff;display:flex;align-items:center}
+.roomname strong{font-size:13px}
+.roomname.active{background:#fff6d6;box-shadow:inset 4px 0 0 #e0a800}
+.slot{border-radius:0;border:0;border-top:1px solid #e5edef;border-left:1px solid #e9eff1;padding:0 2px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#1d5a4a;min-height:0}
+.slot.available{background:#e5f7ef}
+.slot.taken{background:repeating-linear-gradient(135deg,#dde8ed,#dde8ed 6px,#cddbe2 6px,#cddbe2 12px);color:#3c5a68}
+.slot.mine{background:#bfe6ec;color:#0b4a54;box-shadow:inset 0 0 0 2px #1c8c9a}
+.slot.sel{background:#fff0b8;color:#5e4200;box-shadow:inset 0 0 0 2px #e0a800}
+.slot.clash{background:#ffd6d2;color:#8a1f16;box-shadow:inset 0 0 0 2px #c0392b}
+.slot:not(:disabled):hover{outline:2px solid #1c9a96;outline-offset:-2px}
+.selbar{flex:none;display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:10px;padding:10px 12px;background:#f4f8f8;border:1px solid #dce7ec;border-radius:9px;font-size:14px}
+.selbar.bad{background:#fff1f0;border-color:#f1b9b3;color:#8f2a22}
+.okmark{color:#1f6f4a}
+
+/* page 2: booking form */
+.book-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:14px}
+h2{font:700 21px 'Space Grotesk';letter-spacing:-.02em;margin:0 0 12px}
+h3{font-size:15px;margin:0 0 8px}
+.form{flex:1;min-height:0;display:flex;flex-direction:column}
+.field{display:flex;flex-direction:column;gap:5px;margin-bottom:12px;min-width:0}
+.field label,.label-row label{font-size:14px;font-weight:600;color:#2d4654}
+.field label em,.label-row label em{font-style:normal;font-weight:400;font-size:12px;color:#566b76;margin-left:6px}
+input,textarea{padding:10px 11px;border:1px solid #9fb4bc;background:#fff;border-radius:7px;font-size:15px;color:#172b3c;min-width:0;width:100%}
+textarea{resize:none}
+.field.invalid input{border-color:#b42318;background:#fff6f5}
+.field-error{margin:0;font-size:13px;line-height:1.4;color:#b42318;font-weight:500}
+.date-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.helper{font-size:13px;line-height:1.5;color:#566b76;margin:0}
+.editing-banner{background:#fff6d6;border:1px solid #e8cd70;color:#5e4200;border-radius:7px;padding:8px 11px;font-size:13px;margin-bottom:12px}
+.error{font-size:13px;padding:9px 11px;margin:0 0 10px;border-radius:7px;line-height:1.4;background:#fff1f0;color:#8f2a22;border:1px solid #f1b9b3}
+.error ul{margin:4px 0 0;padding-left:18px}
+.form-actions{margin-top:auto;display:grid;grid-template-columns:auto 1fr 1fr;gap:8px}
+button.ghost,.availability-check{padding:11px 12px;border-radius:7px;font-weight:700;font-size:14px;border:1px solid #9fb4bc;background:#fff;color:#1d5f6d}
+.reserve-button{padding:11px 16px;border-radius:7px;font-weight:700;font-size:14px;background:#0f7b86;color:#fff;border:1px solid #0f7b86}
+.reserve-button:disabled{background:#9db8bd;border-color:#9db8bd}
+.reserve-button.small{padding:8px 14px;font-size:13px}
+.cancel-edit{border:0;background:transparent;font-size:13px;margin:8px 0 0;color:#2d4654;text-decoration:underline;align-self:flex-start}
+.side-card{overflow:auto}
+.status-area{margin-bottom:14px}
+.status{border-radius:8px;padding:10px 12px;font-size:14px;line-height:1.5}
+.status.ok{background:#e6f8ea;color:#1f5f45;border:1px solid #b5e3c4}
+.status.bad{background:#fff1f0;color:#8f2a22;border:1px solid #f1b9b3}
+.suggest{margin-top:8px;width:100%;padding:9px;border-radius:7px;border:1px solid #8f2a22;background:#fff;color:#8f2a22;font-weight:700;font-size:13px}
+.room-list{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.room-list li{display:flex;justify-content:space-between;gap:10px;padding:7px 10px;border:1px solid #e1e9eb;border-radius:7px;font-size:13px;background:#fafcfc}
+.room-list li em{font-style:normal;color:#566b76}
+.room-list li.hit{background:#ffd6d2;border-color:#c0392b;color:#8a1f16}
+
+/* page 3: my bookings */
+.mine-top{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.mine-top h2{margin:0}
+.mine-top .reserve-button{margin-left:auto}
+.row{display:grid;grid-template-columns:90px minmax(0,1.5fr) 90px minmax(0,1.5fr) 100px;gap:12px;align-items:center}
+.mine-head{padding:6px 10px;font-size:12px;font-weight:700;color:#566b76;letter-spacing:.05em;text-transform:uppercase;border-bottom:2px solid #e1e9eb}
+.mine-list{flex:1;min-height:0;overflow:auto}
+.mine-row{padding:9px 10px;border-bottom:1px solid #e9eff1;font-size:14px}
+.mine-row.flash{animation:flash 1s ease-in-out 3;background:#e6f8ea}
+.mine-row .col-p{color:#566b76;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.room-chip{padding:5px 8px;border-radius:6px;background:#ddecef;font-weight:700;color:#2f5a63;font-size:13px;white-space:nowrap;text-align:center}
+.change{border:1px solid #1b7476;background:#fff;color:#14595c;font-size:13px;font-weight:600;border-radius:7px;padding:7px 12px}
+.empty{padding:20px 4px}
+@keyframes flash{50%{background:#7be0a6}}
+
+/* screens too small to fit a page: fall back to a normal scrolling page */
+@media(max-width:1100px),(max-height:660px){
+ body{overflow:auto}
+ .room-app{height:auto;min-height:100vh}
+ .topbar{height:auto;flex-wrap:wrap;padding:8px 14px;gap:8px}
+ .counts,.profile{display:none}
+ .page{height:auto}
+ .calendar-scroll{flex:none}
+ .room-cal{grid-template-rows:auto;grid-auto-rows:40px}
+ .book-grid{grid-template-columns:1fr}
+ .form-actions{grid-template-columns:1fr 1fr}
+ .row{grid-template-columns:80px 1fr 90px}
+ .col-n,.col-p{display:none}
+ .mine-list,.side-card{overflow:visible}
+}
